@@ -13,4 +13,5 @@
 * ["src/MerkleSumTree"](modules/_src_merklesumtree_.md)
 * ["src/MerkleTree"](modules/_src_merkletree_.md)
 * ["src/UnifiedBinaryTree"](modules/_src_unifiedbinarytree_.md)
+* ["src/functional"](modules/_src_functional_.md)
 * ["src/index"](modules/_src_index_.md)

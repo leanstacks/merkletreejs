@@ -80,7 +80,10 @@
     "merkleradixtree",
     "merklestatetree",
     "unifiedbinarytree",
-    "eip7864"
+    "eip7864",
+    "viem",
+    "wagmi",
+    "functional"
   ],
   "author": {
     "name": "Miguel Mota",

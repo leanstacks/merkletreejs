@@ -322,6 +322,20 @@ export class MerkleTree extends Base {
   }
 
   /**
+   * getHexLeaf
+   * @desc Returns the leaf at the given index as a hex string.
+   * @param {Number} - Index number
+   * @return {String}
+   * @example
+   *```js
+   *const leaf = tree.getHexLeaf(1)
+   *```
+   */
+  getHexLeaf (index: number):string {
+    return this.bufferToHex(this.getLeaf(index))
+  }
+
+  /**
    * getLeafIndex
    * @desc Returns the index of the given leaf, or -1 if the leaf is not found.
    * @param {String|Buffer} - Target leaf

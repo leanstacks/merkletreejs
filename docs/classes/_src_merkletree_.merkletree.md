@@ -32,6 +32,7 @@ Class reprensenting a Merkle Tree
 * [getDepth](_src_merkletree_.merkletree.md#getdepth)
 * [getHexLayers](_src_merkletree_.merkletree.md#gethexlayers)
 * [getHexLayersFlat](_src_merkletree_.merkletree.md#gethexlayersflat)
+* [getHexLeaf](_src_merkletree_.merkletree.md#gethexleaf)
 * [getHexLeaves](_src_merkletree_.merkletree.md#gethexleaves)
 * [getHexMultiProof](_src_merkletree_.merkletree.md#gethexmultiproof)
 * [getHexProof](_src_merkletree_.merkletree.md#gethexproof)
@@ -400,6 +401,29 @@ const layers = tree.getHexLayersFlat()
 ```
 
 **Returns:** *string[]*
+
+___
+
+###  getHexLeaf
+
+▸ **getHexLeaf**(`index`: number): *string*
+
+getHexLeaf
+
+**`desc`** Returns the leaf at the given index as a hex string.
+
+**`example`** 
+```js
+const leaf = tree.getHexLeaf(1)
+```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`index` | number |
+
+**Returns:** *string*
 
 ___
 
