@@ -5,4 +5,5 @@ export { IncrementalMerkleTree } from './IncrementalMerkleTree'
 export { MerkleSumTree } from './MerkleSumTree'
 export { MerkleRadixTree } from './MerkleRadixTree'
 export { UnifiedBinaryTree } from './UnifiedBinaryTree'
+export * from './functional'
 export default MerkleTree

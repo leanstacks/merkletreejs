@@ -150,12 +150,12 @@ npm test
 
 - Q: What other types of merkle trees are supported?
 
-  - Besides standard `MerkleTree`, there's these implementation classes available:
-    - `MerkleMountainRange`
-    - `MerkleSumTree`
-    - `IncrementalMerkleTree`
-    - `MerkleRadixTree`
-    - `UnifiedBinaryTree` (EIP-7864)
+  - Besides standard [`MerkleTree`](./README-MerkleTree.md), there's these implementation classes available:
+    - [`MerkleMountainRange`](./README-MerkleMountainRange.md)
+    - [`MerkleSumTree`](./README-MerkleSumTree.md)
+    - [`IncrementalMerkleTree`](./README-IncrementalMerkleTree.md)
+    - [`MerkleRadixTree`](./README-MerkleRadixTree.md)
+    - [`UnifiedBinaryTree`](./README-UnifiedBinaryTree.md) (EIP-7864)
 
     Example import of other classes:
 
