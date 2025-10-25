@@ -135,7 +135,7 @@ export class IncrementalMerkleTree extends Base {
   }
 
   getMaxLeaves (): number {
-    return this.depth ** this.arity
+    return this.arity ** this.depth
   }
 
   indexOf (leaf: any): number {
